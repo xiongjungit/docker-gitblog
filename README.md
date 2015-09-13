@@ -193,4 +193,4 @@ GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！�
 
 - [道客云Gitblog演示网站](http://gitblog.daoapp.io/)
 
-- [时速云Gitblog演示网站](http://gitblog-dockerxman.tenxcloud.net)
+- [时速云Gitblog演示网站](http://gitblog-dockerxman.tenxapp.com)

@@ -1,0 +1,29 @@
+#GitBlog配置文件，使用4个空格代替Tab
+---
+url: /
+title: 我想静静
+subtitle: 老板,来五毛钱的静静
+theme: quest
+highlight: true
+mathjax: true
+duoshuo: mxnet                     #多说评论框ID
+baiduAnalytics: a37220fefe9ce31cdef91c0fa921043a  #百度统计ID
+keywords: GitBlog,博客,Markdown博客,xiongjun
+description: >
+    GitBlog是一个简单易用的Markdown博客系统
+version: 2.2
+author:
+    name: xiongjun
+    email: fenyunxx@163.com
+    github: https://github.com/xiongjungit
+    weibo: 2087431111
+    avatar: /img/my_head.png
+blog:
+    recentSize: 50
+    pageSize: 50
+    pageBarSize: 10
+    allBlogsForPage: false
+text:
+    title: 介绍
+    intro: >
+        只想做个安静的美男子

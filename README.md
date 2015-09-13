@@ -185,7 +185,7 @@ GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！�
 [25]: http://blog.ckeyer.com
 [26]: http://wangzugang.net
 [27]: http://liyu34.xyz
-[28]: http://mxnet.cc
+[28]: http://gitblog.daoapp.io/
 
 ## 十二. 演示网站
 

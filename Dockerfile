@@ -61,7 +61,7 @@ ADD php_www.conf /etc/php5/fpm/pool.d/www.conf
 COPY gitblog-master/ /www/gitblog-master
 RUN chown -R www-data:www-data /www/gitblog-master
 
-VOLUME ["/www/gitblog-master/blog"]
+VOLUME ["/www/gitblog-master/"]
 
 EXPOSE 80
 

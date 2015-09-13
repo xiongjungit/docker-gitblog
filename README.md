@@ -53,7 +53,7 @@ GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，�
 
 - 道客云镜像(速度快):
 ```
-docker pull daocloud.io/xiongjun_dao/docker-gitblog:master-init 
+docker pull daocloud.io/xiongjun_dao/docker-ghost:latest 
 ```
 
 - 时速云镜像(速度快): 

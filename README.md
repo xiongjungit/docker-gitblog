@@ -61,6 +61,11 @@ docker pull daocloud.io/xiongjun_dao/docker-ghost:latest
 docker pull index.tenxcloud.com/dockerxman/docker-gitblog
 ```
 
+- 灵雀云镜像(速度快):
+```
+docker pull index.alauda.cn/dockerxman/docker-gitblog
+```
+
 - DockerHub镜像(速度慢): 
 ```
 docker pull dockerxman/docker-gitblog

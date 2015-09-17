@@ -58,7 +58,7 @@ docker pull daocloud.io/xiongjun_dao/docker-ghost:latest
 
 - 时速云镜像(速度快): 
 ```
-docker pull daocloud.io/xiongjun_dao/docker-gitblog:master-init
+docker pull index.tenxcloud.com/dockerxman/docker-gitblog
 ```
 
 - DockerHub镜像(速度慢): 

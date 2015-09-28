@@ -19,8 +19,8 @@ author:
     weibo: 2087431111
     avatar: /img/my_head.png
 blog:
-    recentSize: 50
-    pageSize: 50
+    recentSize: 12
+    pageSize: 12
     pageBarSize: 10
     allBlogsForPage: false
 text:

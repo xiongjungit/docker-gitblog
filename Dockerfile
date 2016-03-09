@@ -11,33 +11,29 @@ ENV TZ "Asia/Shanghai"
 ENV TERM xterm
 
 ADD sources.list /etc/apt/sources.list
-RUN apt-get update
-
-RUN apt-get install -y unzip
-RUN apt-get install -y vim
-RUN apt-get install -y wget
-RUN apt-get install -y curl
-RUN apt-get install -y supervisor
-
-RUN apt-get install -y nginx
-
-RUN apt-get install -y openssl
-RUN apt-get install -y libmcrypt-dev
-RUN apt-get install -y mcrypt
-
-RUN apt-get install -y php5-fpm
-RUN apt-get install -y php5-cli
-RUN apt-get install -y php5-curl
-RUN apt-get install -y php5-mcrypt
-RUN apt-get install -y php5-gd
-RUN apt-get install -y php5-mysql
-RUN apt-get install -y php5-json
-RUN apt-get install -y php5-readline
-RUN apt-get install -y php5-xcache
-RUN apt-get install -y php-pear
-
-RUN apt-get clean
-RUN apt-get autoclean
+RUN \
+  apt-get update && \
+  apt-get install -y unzip && \
+  apt-get install -y vim && \
+  apt-get install -y wget && \
+  apt-get install -y curl && \
+  apt-get install -y supervisor && \
+  apt-get install -y nginx && \
+  apt-get install -y openssl && \
+  apt-get install -y libmcrypt-dev && \
+  apt-get install -y mcrypt && \
+  apt-get install -y php5-fpm && \
+  apt-get install -y php5-cli && \
+  apt-get install -y php5-curl && \
+  apt-get install -y php5-mcrypt && \
+  apt-get install -y php5-gd && \
+  apt-get install -y php5-mysql && \
+  apt-get install -y php5-json && \
+  apt-get install -y php5-readline && \
+  apt-get install -y php5-xcache && \
+  apt-get install -y php-pear && \
+  apt-get clean && \
+  apt-get autoclean
 
 RUN rm -rf /usr/share/nginx/html 
 
